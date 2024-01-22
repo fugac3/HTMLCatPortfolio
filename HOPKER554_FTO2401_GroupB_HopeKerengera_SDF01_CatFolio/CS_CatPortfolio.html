@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Awesome Portfolio Site 🚀</title>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>CodeSpace Cat's Portfolio 🎨</h1>
+        <nav> <!-- Navigation Menu -->
+            <ul> <!--creates a vertical list of navigation links-->
+                <!--"#"" is important to take user directly to the location of id-->
+                <li><a href="#aboutMe">About Me🐱👋🏽</a></li>
+                <li><a href="#skills">Skills⚾️</a></li>
+                <li><a href="#portSection">Portfolio📸</a></li>
+                <li><a href="#contact">Contact📞</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="aboutMe">
+        <h1>About Me🐱</h1><br>
+        <img src="images/cat-codespace.png" alt="Picture of CodeSpace Cat">
+        <!--link to the Codespace cat image, had to put image folder and html file in same directory for image to show-->
+        <p>Hello! I'm <b>CodeSpace Cat</b>. I'm pur-ssionate about web development and design. I've been pawing at the web industry for just one catnap (that's less than a day in human terms), and I adore crafting pawsitively intuitive, whisker-twitching, and fur-tastic
+            web experiences. Whoa that's a lot of puns.🐾</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1>My Skills🤹‍♀️</h1>
+        <!--creates bulleted list-->
+        <ul> 
+            <li>Web Development🕸</li>
+            <li>UI/UX Design🎨</li>
+            <li>Backend Development🧱</li>
+            <li>Database Management💻</li>
+            <li>SEO Optimization🔎</li>
+            <li>Lying in the Sun🌞</li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portSection">
+        <h1>Catfolio</h1>
+        <table width="1200"> <!--width of the table - tried to make table take up width of page so I can divide columns equally into 4 parts-->
+            <tr>
+                <th width="300">Project Name</th>
+                <th width="300">Date</th>
+                <th width="300">Description</th>
+                <th width="300">Thumbnail</th>
+            </tr>
+
+            <tr> <!--data for second row-->
+                <td>Perfect Landing Page</td>
+                <td>January 2024</td>
+                <td>A delightful landing page for a luxury cat condo.</td>
+                <td><img src="images/1.png" alt="Landing Page for cat condo"></td>
+            </tr>
+
+            <tr>
+                <td>Kitty Commerce</td>
+                <td>February 2024</td>
+                <td>An online store selling the fanciest catnip toys.</td>
+                <td><img src="images/2.png" alt="Online store selling catnip toys"</td>
+            </tr>
+
+            <tr>
+                <td>CatChat Social</td>
+                <td>June 2024</td>
+                <td>A social media site for cats to meow and hiss!</td>
+                <td><img src="images/3.png" alt="Social media for cats"</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact"> 
+        <h1>Contact Me</h1>
+
+        <form action="images/" method="post">
+            <!--for user to enter in their name-->
+            <label for="name">Name:</label>
+            <input type="text" id="name"> 
+
+            <!--for user to enter in their email-->
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <!--for user to enter a message-->
+            <label for="message">Message:</label>
+            <textarea id="message" rows="2"></textarea>
+
+            <!--for submit button-->
+            <button type="submit">Submit</button>
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CodeSpaceCat. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
